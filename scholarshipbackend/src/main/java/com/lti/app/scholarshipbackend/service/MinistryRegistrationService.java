@@ -1,5 +1,9 @@
 package com.lti.app.scholarshipbackend.service;
 
-public interface MinistryRegistrationService {
+import com.lti.app.scholarshipbackend.beans.MinistryRegistration;
 
+public interface MinistryRegistrationService {
+	public int addMinistryRegistration(MinistryRegistration e);
+
+	
 }
